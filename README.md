@@ -15,7 +15,7 @@ Git must be installed on you machine.
 
 ### Setup
 Clone this repository by using the command line :
-`git clone https://github.com/tanveerisonline/portfolio_website`
+`git clone https://github.com/tanveerisonline/personal-portfolio-website.git
 
 ### Install
 
@@ -47,8 +47,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._#� �p�o�r�t�f�o�l�i�o�-�r�e�s�p�o�n�s�i�v�e�-�w�e�b�s�i�t�e�
-�
-�#� �p�e�r�s�o�n�a�l�-�p�o�r�t�f�o�l�i�o�-�w�e�b�s�i�t�e�
-�
-�
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish.
