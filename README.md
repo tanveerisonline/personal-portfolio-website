@@ -1,8 +1,11 @@
 # Project Name
+
 > This project is a portfolio website which is created using pure Html5 and Css3.
 > Me and my other two partners have worked together on form section in this project.
 > This project has both features its mobile friendly as well as desktop too.
+
 ## Built With
+
 - Html
 - Css
 
@@ -11,9 +14,11 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 Git must be installed on you machine.
 
 ### Setup
+
 Clone this repository by using the command line :
 `git clone https://github.com/tanveerisonline/personal-portfolio-website.git`
 
@@ -28,6 +33,7 @@ Clone this repository by using the command line :
 ## Authors
 
 👤 **Author1**
+
 - GitHub: [@tanveerisonline](https://github.com/tanveerisonline)
 
 ## 🤝 Contributing
@@ -44,4 +50,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish.
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
