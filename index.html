@@ -15,7 +15,14 @@
     <header class="header" id="fixed">
       <nav>
         <a href="#" target="_parent" class="logo">Tanveer</a>
-        <img src="./assets/Union.png" class="mobile_menu_icon" alt="mobile-menu-icon" />
+        <button class="hamberger-menu" id="hamburger-menu">
+          <div class="bar-icon"></div>
+        </button>
+      </nav>
+      <nav class="mobile-menu">
+        <a href="#work-link">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
       </nav>
       <div class="desktop-nav">
         <ul>
@@ -48,7 +55,7 @@
     </section>
 
     <!-- Work section -->
-    <section class="work">
+    <section class="work" id="work-link">
 
       <div class="card d-flex" id="order-0">
         <div class="preview">
@@ -190,12 +197,12 @@
           contact me.
         </p>
 
-        <div class="btn-link" ><a href="#">
-            <h3 class="connect_button"id="about-connect-link">let's connect</h3>
+        <div class="btn-link"><a href="#">
+            <h3 class="connect_button" id="about-connect-link">let's connect</h3>
           </a></div>
 
         <div class="social d-flex" id="about-social-links">
-          <ul class="d-flex bottom-icons"  >
+          <ul class="d-flex bottom-icons">
             <li><a class="d-flex" href="#"><img src="./assets/Vector.svg" alt="twitter"></a></li>
             <li><a class="d-flex" href="#"><img src="./assets/Linkedin icon.svg" alt="Linkedin"></a></li>
             <li><a class="d-flex" href="#"><img src="./assets/Vector-2.svg" alt="m-icon"></a></li>
@@ -271,6 +278,7 @@
       </div>
     </footer>
   </main>
+  <script src="./main.js"></script>
 </body>
 
 </html>
