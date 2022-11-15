@@ -741,3 +741,19 @@ nav {
   padding: 100px 0 0 0;
   transition: 0.4s;
 }
+
+.mobile-menu.is-active {
+  left: 0;
+}
+
+.mobile-menu a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0;
+  text-align: left;
+  padding: 12px 16px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
