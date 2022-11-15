@@ -15,7 +15,16 @@
     <header class="header" id="fixed">
       <nav>
         <a href="#" target="_parent" class="logo">Tanveer</a>
-        <img src="./assets/Union.png" class="mobile_menu_icon" alt="mobile-menu-icon" />
+        <button class="hamberger-menu" id="hamburger-menu">
+          <div class="bar-icon"></div>
+        </button>
+      </nav>
+      <nav class="mobile-menu">
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
       </nav>
       <div class="desktop-nav">
         <ul>
@@ -48,7 +57,7 @@
     </section>
 
     <!-- Work section -->
-    <section class="work">
+    <section class="work" id="portfolio">
 
       <div class="card d-flex" id="order-0">
         <div class="preview">
@@ -180,7 +189,7 @@
     <!-- end of work section-->
 
     <!-- About section for mobile -->
-    <section class="about d-flex">
+    <section class="about d-flex" id="about">
       <div class="about-div">
         <h2 class="headline_title">About Myself</h2>
         <p class="about_details">
@@ -190,12 +199,12 @@
           contact me.
         </p>
 
-        <div class="btn-link" ><a href="#">
-            <h3 class="connect_button"id="about-connect-link">let's connect</h3>
+        <div class="btn-link"><a href="#">
+            <h3 class="connect_button" id="about-connect-link">let's connect</h3>
           </a></div>
 
         <div class="social d-flex" id="about-social-links">
-          <ul class="d-flex bottom-icons"  >
+          <ul class="d-flex bottom-icons">
             <li><a class="d-flex" href="#"><img src="./assets/Vector.svg" alt="twitter"></a></li>
             <li><a class="d-flex" href="#"><img src="./assets/Linkedin icon.svg" alt="Linkedin"></a></li>
             <li><a class="d-flex" href="#"><img src="./assets/Vector-2.svg" alt="m-icon"></a></li>
@@ -240,7 +249,7 @@
       </div>
     </section>
     <!-- About section for desktop -->
-    <footer class="contact">
+    <footer class="contact" id="contact">
       <div class="contact-us d-flex " id="mobile-contact">
         <div class="contact-text">
           <h2 class="form-heading">Contact me</h2>
@@ -271,6 +280,7 @@
       </div>
     </footer>
   </main>
+  <script src="./main.js"></script>
 </body>
 
 </html>
