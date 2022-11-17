@@ -193,7 +193,7 @@ nav {
   padding-left: 0;
 }
 
-.catagories > li {
+.catagories>li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -756,4 +756,25 @@ nav {
   color: #fff;
   text-decoration: none;
   font-size: 30px;
+}
+
+/* Form Validation */
+
+.error {
+  justify-self: center;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3vh;
+  line-height: 4vh;
+  color: red;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
 }

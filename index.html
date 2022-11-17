@@ -264,13 +264,17 @@
             </label>
 
             <label for="your email">
-              <input type="email" id="email-id"  placeholder="example@gmail.com" name="email-id" required />
+              <input type="email" id="email-id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              placeholder="example@gmail.com" name="email-id" required />
             </label>
+            
+
 
             <label for="your message">
               <textarea placeholder="Write your message here" maxlength="500" id="message" required></textarea>
             </label>
 
+            <span class="error" aria-live="polite"></span>
             <div class="submit-btn d-flex">
               <button type="submit" class="submit-button d-flex">
                 Get in touch
