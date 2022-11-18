@@ -193,7 +193,7 @@ nav {
   padding-left: 0;
 }
 
-.catagories>li {
+.catagories > li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -355,7 +355,6 @@ nav {
 
 .submit-button {
   align-self: flex-start;
-  margin-left: 24px;
   width: 148px;
   height: 48px;
   border-radius: 8px;
