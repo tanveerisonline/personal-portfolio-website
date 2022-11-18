@@ -99,7 +99,7 @@ nav {
   color: #505f79;
 }
 
-.desktop-card {
+/* .desktop-card {
   display: none;
 }
 
@@ -193,7 +193,7 @@ nav {
   padding-left: 0;
 }
 
-.catagories > li {
+.catagories>li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -202,9 +202,9 @@ nav {
   background: #ebebff;
   font-size: 14px;
   line-height: 16px;
-}
+}*/
 
-.default_button {
+.default_about_button {
   cursor: pointer;
   margin-top: 20px;
   color: #396df2;
@@ -214,11 +214,25 @@ nav {
   border: 1px solid #396df2;
 }
 
-.default_button:hover {
+.default_about_button:hover {
   color: #fff;
   background: #396df2;
   cursor: pointer;
 }
+
+.make-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.works {
+  padding: 0 15px;
+}
+
+/* .space {
+  height: 600px;
+} */
 
 .about {
   flex-direction: column;
@@ -384,6 +398,8 @@ nav {
   background-color: white;
 }
 
+
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .mobile-menu {
@@ -500,7 +516,7 @@ nav {
     align-items: center;
   }
 
-  .card {
+  /* .card {
     display: flex;
     flex-direction: row;
     width: 85%;
@@ -570,7 +586,9 @@ nav {
   .info .first:first-child {
     list-style: none;
     padding-right: 8px;
-  }
+  } */
+
+
 
   .about {
     display: flex;
@@ -650,7 +668,7 @@ nav {
     margin-left: 550px;
   }
 
-  .default_button {
+  .default_about_button {
     margin-top: 50px;
   }
 
