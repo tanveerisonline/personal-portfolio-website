@@ -20,11 +20,11 @@
         </button>
       </nav>
       <nav class="mobile-menu">
-      <ul>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
       <div class="desktop-nav">
         <ul>
@@ -258,28 +258,24 @@
             feature that you need built or a project that needs coding. I’d
             love to help with it
           </p>
-          <form class="contact-form d-flex" action="https://formspree.io/f/xknepwor" method="post">
-            <label for="your-name">
-              <input type="text" id="name" placeholder="John Smith" name="name" maxlength="30" required />
-            </label>
-
-            <label for="your email">
-              <input type="email" id="email-id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-              placeholder="example@gmail.com" name="email-id" required />
-            </label>
-            
-
-
-            <label for="your message">
-              <textarea placeholder="Write your message here" maxlength="500" id="message" required></textarea>
-            </label>
-
-            <span class="error" aria-live="polite"></span>
-            <div class="submit-btn d-flex">
-              <button type="submit" class="submit-button d-flex">
-                Get in touch
-              </button>
+          <form class="contact-form d-flex" action="https://formspree.io/f/xknepwor" method="POST" id="query-form">
+            <div class="form-group">
+              <input id="user_name" type="text" class="form-control" placeholder=" Name">
             </div>
+            <div class="form-group">
+              <input id="email_id" type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="text-area" cols="30" rows="10" type="text" placeholder="message"
+                id="msg"></textarea>
+
+
+            </div>
+            <div id="email-response"></div>
+            <div class="submit-btn d-flex">
+              <button type="submit" class="submit-button d-flex">Get In Touch</button>
+            </div>
+
           </form>
         </div>
       </div>

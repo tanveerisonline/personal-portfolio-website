@@ -193,7 +193,7 @@ nav {
   padding-left: 0;
 }
 
-.catagories > li {
+.catagories>li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -369,6 +369,7 @@ nav {
   cursor: pointer;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 .submit-button:hover {
@@ -759,22 +760,26 @@ nav {
 }
 
 /* Form Validation */
-
-.error {
-  justify-self: center;
-  text-align: center;
-  width: 100%;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 3vh;
-  line-height: 4vh;
-  color: red;
-  border-radius: 0 0 5px 5px;
-  box-sizing: border-box;
+.form-valid {
+  border: 10px solid rgb(0, 49, 0);
+  box-shadow: 0 0 10px rgb(0, 58, 0);
 }
 
-.error.active {
-  padding: 0.3em;
+.form-invalid {
+  border: 1px solid rgb(116, 33, 3);
+  box-shadow: 0 0 10px rgb(255, 68, 1);
+}
+
+.color-green {
+  padding-left: 10px;
+  color: green;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.color-red {
+  padding-left: 10px;
+  color: rgb(138, 15, 15);
+  font-size: 16px;
+  font-weight: 600;
 }
