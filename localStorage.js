@@ -1,3 +1,7 @@
+const name_ = document.querySelector("#user_name");
+const email = document.querySelector("#email_id");
+const message = document.querySelector("#msg");
+
 let formData = {
   name: "",
   email: "",
