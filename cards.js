@@ -1,63 +1,67 @@
-const projectsInfo = [
+const projectCardInfo = [
   {
-    title: "Facebook 360",
-    desc: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    langs: ["Html", "Css", "Javascript"],
-    imgCard: "./assets/desktop_images/Snapshoot Portfolio.png",
-    cannopy: "FACEBOOK",
-    job: "Full Stack Dev",
-    live: "#",
-    source: "#",
+    cardTitle: "Tonic",
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    technologies: ["Html", "Css", "Javascript"],
+    cardImg: "./assets/desktop_images/Snapshoot Portfolio.png",
+    cardCannopy: "FACEBOOK",
+    cardJob: "Full Stack Dev",
+    goLive: "#",
+    sourceLink: "#",
   },
   {
-    title: "Multi-Post Stories",
-    desc: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-    langs: ["HTML", "Ruby on rails", "Javascript", "CSS"],
-    imgCard: "./assets/snapshoot-portfolio1.png",
-    cannopy: "FACEBOOK",
-    job: "Full Stack Dev",
-    live: "#",
-    source: "#",
+    cardTitle: "Facebook 360",
+    description:
+      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+    technologies: ["HTML", "Ruby on rails", "Javascript", "CSS"],
+    cardImg: "./assets/snapshoot-portfolio1.png",
+    cardCannopy: "FACEBOOK",
+    cardJob: "Full Stack Dev",
+    goLive: "#",
+    sourceLink: "#",
   },
   {
-    title: "Tonic",
-    desc: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
-    langs: ["HTML", "CSS", "Javascript"],
-    imgCard: "./assets/snapshoot-portfolio2.png",
-    cannopy: "CANOPY",
-    job: "Back End Dev",
-    live: "#",
-    source: "#",
+    cardTitle: "Uber Navigation",
+    description:
+      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    cardImg: "./assets/snapshoot-portfolio2.png",
+    cardCannopy: "CANOPY",
+    cardJob: "Back End Dev",
+    goLive: "#",
+    sourceLink: "#",
   },
   {
-    title: "Uber Navigation",
-    desc: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-    langs: ["HTML", "Ruby on rails", "Javascript", "CSS"],
-    imgCard: "./assets/snapshoot-portfolio3.png",
-    cannopy: "Uber",
-    job: "Lead Developer",
-    live: "#",
-    source: "#",
+    cardTitle: "Multi-Post Stories",
+    description:
+      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    technologies: ["HTML", "Ruby on rails", "Javascript", "CSS"],
+    cardImg: "./assets/snapshoot-portfolio4.png",
+    cardCannopy: "Uber",
+    cardJob: "Lead Developer",
+    goLive: "#",
+    sourceLink: "#",
   },
 ];
 
-const projects = document.querySelector(".works");
+const cardProject = document.querySelector(".works");
 let index = 0;
-projectsInfo.forEach((project) => {
-  projects.innerHTML += `
-          <div class="make-flex work-card">
+projectCardInfo.forEach((project) => {
+  cardProject.innerHTML += `
+          <div class="create-flex work-card">
             <img src="${
-              project.imgCard
+              project.cardImg
             }" class="work-img" alt="Portfolio Image">
             <div class="work-card-context">
-              <h2 class="card-title">${project.title}</h2>
+              <h2 class="card-title">${project.cardTitle}</h2>
               <div class="make-grid work-categories">
                 
                   
-                <p class="canopy grid-item">${project.cannopy}</p>
+                <p class="canopy grid-item">${project.cardCannopy}</p>
              
                 <div class="circle-item grid-item"></div>
-                <p class="category-text grid-item">${project.job}</p>
+                <p class="category-text grid-item">${project.cardJob}</p>
                 <div class="circle-item grid-item"></div>
                 <p class="category-text grid-item">2015</p>
               </div>
@@ -65,7 +69,7 @@ projectsInfo.forEach((project) => {
                  a place to discover and enjoy 360 photos and videos on Gear VR.</p>
           
                 <ul class="card-languages">
-                    ${project.langs
+                    ${project.technologies
                       .map(
                         (lang) =>
                           `<li class="language-bg card-language">${lang}</li>`
@@ -73,7 +77,7 @@ projectsInfo.forEach((project) => {
                       .join("")} 
                 </ul>
             
-              <button onClick="ShowCloseModal(${index})" class="default_about_button btn">See Project</button>
+              <button onClick="PopUpModalShowHide(${index})" class="default_about_button btn">See Project</button>
             </div>
           </div>`;
   index += 1;
