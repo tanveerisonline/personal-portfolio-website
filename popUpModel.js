@@ -1,47 +1,47 @@
 const popUpModals = [
   {
-    cardTitle: "Tonic",
+    cardTitle: 'Tonic',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.",
-    technologies: ["Html", "Css", "Javascript"],
-    cardImg: "./assets/desktop_images/Snapshoot Portfolio.png",
-    cardCannopy: "FACEBOOK",
-    cardJob: "Full Stack Dev",
-    since: "2015",
+    technologies: ['Html', 'Css', 'Javascript'],
+    cardImg: './assets/desktop_images/Snapshoot Portfolio.png',
+    cardCannopy: 'FACEBOOK',
+    cardJob: 'Full Stack Dev',
+    since: '2015',
   },
   {
-    cardTitle: "Facebook 360",
+    cardTitle: 'Facebook 360',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.",
-    technologies: ["HTML", "Ruby on rails", "Javascript", "CSS"],
-    cardImg: "./assets/snapshoot-portfolio1.png",
-    cardCannopy: "FACEBOOK",
-    cardJob: "Full Stack Dev",
-    since: "2015",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.',
+    technologies: ['HTML', 'Ruby on rails', 'Javascript', 'CSS'],
+    cardImg: './assets/snapshoot-portfolio1.png',
+    cardCannopy: 'FACEBOOK',
+    cardJob: 'Full Stack Dev',
+    since: '2015',
   },
   {
-    cardTitle: "Uber Navigation",
+    cardTitle: 'Uber Navigation',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    cardImg: "./assets/snapshoot-portfolio2.png",
-    cardCannopy: "CANOPY",
-    cardJob: "Back End Dev",
-    since: "2015",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.',
+    technologies: ['HTML', 'CSS', 'Javascript'],
+    cardImg: './assets/snapshoot-portfolio2.png',
+    cardCannopy: 'CANOPY',
+    cardJob: 'Back End Dev',
+    since: '2015',
   },
   {
-    cardTitle: "Multi-Posts",
+    cardTitle: 'Multi-Posts',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.",
-    technologies: ["HTML", "Ruby on rails", "Javascript", "CSS"],
-    cardImg: "./assets/snapshoot-portfolio4.png",
-    cardCannopy: "Uber",
-    cardJob: "Lead Developer",
-    since: "2015",
+    technologies: ['HTML', 'Ruby on rails', 'Javascript', 'CSS'],
+    cardImg: './assets/snapshoot-portfolio4.png',
+    cardCannopy: 'Uber',
+    cardJob: 'Lead Developer',
+    since: '2015',
   },
 ];
 
-const popUpModalSection = document.querySelector(".works");
+const popUpModalSection = document.querySelector('.works');
 for (let i = 0; i < popUpModals.length; i += 1) {
   popUpModalSection.innerHTML += `
           <div class="popup-modal ">
@@ -49,8 +49,8 @@ for (let i = 0; i < popUpModals.length; i += 1) {
           </div>
           <div class="popup-modal-bg ">
               <h2 class="card-title modal-title">${
-                popUpModals[i].cardTitle
-              }</h2>
+  popUpModals[i].cardTitle
+}</h2>
               <i class="fa-solid fa-xmark popup-modal-close"></i>
 
               <div class="make-grid work-categories">
@@ -62,20 +62,19 @@ for (let i = 0; i < popUpModals.length; i += 1) {
               </div>
               
               <img src="${
-                popUpModals[i].cardImg
-              }" class="work-img popup-modal-img" alt="Portfolio Image">
+  popUpModals[i].cardImg
+}" class="work-img popup-modal-img" alt="Portfolio Image">
               <div class="create-flex popup-modal-structure">
                 <p class="card-description popup-modal-desc">${
-                  popUpModals[i].description
-                }</p>
+  popUpModals[i].description
+}</p>
                 <div>
                   <ul class="card-languages popup-modal-languages">
                   ${popUpModals[i].technologies
-                    .map(
-                      (lang) =>
-                        `<li class="language-bg card-language">${lang}</li>`
-                    )
-                    .join("")}
+    .map(
+      (lang) => `<li class="language-bg card-language">${lang}</li>`,
+    )
+    .join('')}
                   </ul>
 
                   <div class="popup-modal-line"></div>
@@ -89,26 +88,21 @@ for (let i = 0; i < popUpModals.length; i += 1) {
             </div>`;
 }
 
-const modal = document.querySelectorAll(".popup-modal");
+const modal = document.querySelectorAll('.popup-modal');
 
 function PopUpModalShowHide(modelIndex) {
   if (modelIndex >= 0) {
-    document.querySelectorAll(".popup-modal")[modelIndex].style.display =
-      "block";
-    document.querySelectorAll(".popup-modal-bg")[modelIndex].style.display =
-      "flex";
-    const modalClose =
-      document.querySelectorAll(".popup-modal-close")[modelIndex];
-    modalClose.addEventListener("click", () => {
-      modal[modelIndex].style.display = "none";
-      document.querySelectorAll(".popup-modal-bg")[modelIndex].style.display =
-        "none";
+    document.querySelectorAll('.popup-modal')[modelIndex].style.display = 'block';
+    document.querySelectorAll('.popup-modal-bg')[modelIndex].style.display = 'flex';
+    const modalClose = document.querySelectorAll('.popup-modal-close')[modelIndex];
+    modalClose.addEventListener('click', () => {
+      modal[modelIndex].style.display = 'none';
+      document.querySelectorAll('.popup-modal-bg')[modelIndex].style.display = 'none';
     });
-    window.addEventListener("click", (e) => {
+    window.addEventListener('click', (e) => {
       if (e.target === modal[modelIndex]) {
-        modal[modelIndex].style.display = "none";
-        document.querySelectorAll(".popup-modal-bg")[modelIndex].style.display =
-          "none";
+        modal[modelIndex].style.display = 'none';
+        document.querySelectorAll('.popup-modal-bg')[modelIndex].style.display = 'none';
       }
     });
   } else {
